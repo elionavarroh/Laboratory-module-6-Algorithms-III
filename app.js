@@ -2,7 +2,7 @@
 var myArray = new Array(3).fill("Hola");
 console.log(myArray); // ["Hola","Hola","Hola"]
 
-// Constantes
+//Constantes
 var WORK_HOURS = [
   "08:00 - 09:00",
   "09:00 - 10:00",
@@ -14,7 +14,7 @@ var WORK_HOURS = [
   "16:00 - 17:00"
 ];
 
-// Datos
+//Datos
 var myTeam = [
   {
     name: "María",
@@ -34,7 +34,7 @@ var myTeam = [
   },
 ];
 
-// Algoritmo aleatorio.
+//Algoritmo aleatorio
 for (var member of myTeam) {
   const availability = [];
   for (let i = 0; i < 8; i++) {
@@ -45,7 +45,7 @@ for (var member of myTeam) {
 };
 
 
-// Mostrar disponibilidad.
+//Mostrar disponibilidad
 for (var member of myTeam) {
   console.log("Disponibilidad de " + member.name);
   for (let i = 0; i < 8; i++) {
@@ -58,7 +58,7 @@ for (var member of myTeam) {
   console.log(member);
 };
 
-// Encontrar hueco.
+//Encontrar hueco
 for (let i = 0; i < WORK_HOURS.length; i++) {
   let franjaLibre = true;
   for (var member of myTeam) {
@@ -81,4 +81,4 @@ for (let i = 0; i < WORK_HOURS.length; i++) {
   }
   console.log(arr, arr.every((value) => value === true));
   */
-}
+};
