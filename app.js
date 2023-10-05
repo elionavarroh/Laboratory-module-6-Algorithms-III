@@ -73,7 +73,7 @@ for (let i = 0; i < WORK_HOURS.length; i++) {
     console.log("Hueco encontrado en el horario " + WORK_HOURS[i]);
   }
 
-  /*
+  /* Otra forma -> push
   let arr = [];
   for (var member of myTeam) {
     const availability = member.availability[i];
