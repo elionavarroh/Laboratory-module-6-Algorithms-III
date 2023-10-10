@@ -44,7 +44,6 @@ for (var member of myTeam) {
   member.availability = availability;
 };
 
-
 //Mostrar disponibilidad
 for (var member of myTeam) {
   console.log("Disponibilidad de " + member.name);
