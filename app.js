@@ -72,13 +72,4 @@ for (let i = 0; i < WORK_HOURS.length; i++) {
   if (franjaLibre) {
     console.log("Hueco encontrado en el horario " + WORK_HOURS[i]);
   }
-
-  /* Otra forma -> push
-  let arr = [];
-  for (var member of myTeam) {
-    const availability = member.availability[i];
-    arr.push(availability);
-  }
-  console.log(arr, arr.every((value) => value === true));
-  */
 };
